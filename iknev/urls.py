@@ -21,5 +21,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('process/', include('iknev_process.urls')),
+    path('iknev/', include('iknev_process.urls')),
 ]
